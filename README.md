@@ -1,8 +1,8 @@
-The ASP.NET MVC HTML5 Walkabout is part of a personal quest to establish a solid foundation for web application development that:
+The ASP.NET MVC HTML5 Walkabout is part of a personal quest to HTML5 development best practices and tools on the ASP.NET MVC Stack. Specifically, I'm looking to:
 
-* Leverages the fine HTML5 foundations found in the [HTML5 Boilerplate project](http://html5boilerplate.com/).
-* Optimizes script and image resources.
-* And explores the advantages of using higher-level languages for CSS (Sass) and Javascript (Coffeescript) for better expressiveness and robustness.
+* Leverage the fine HTML5 foundations found in the [HTML5 Boilerplate project](http://html5boilerplate.com/).
+* Optimize script and image resources.
+* And explore the advantages/disadvantages of using higher-level languages for CSS (Sass) and Javascript (Coffeescript) for better expressiveness and robustness.
 
 To that end, it leverages the following NuGet packages:
 
