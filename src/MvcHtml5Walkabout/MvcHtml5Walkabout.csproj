@@ -86,6 +86,10 @@
     <Content Include="js\libs\respond.min.js" />
     <Content Include="js\libs\modernizr-2.0.min.js" />
     <Content Include="js\script.js" />
+    <None Include="Lib\Walkabout\Walkabout.coffee">
+      <Generator>CoffeeScriptGenerator</Generator>
+      <LastGenOutput>Walkabout.js</LastGenOutput>
+    </None>
     <None Include="test\index.html" />
     <None Include="test\qunit\qunit.css" />
     <None Include="test\qunit\qunit.js" />
@@ -96,6 +100,12 @@
     <Content Include="Lib\SquishIt\SquishIt.Framework.dll" />
     <Content Include="Lib\SquishIt\SquishIt.Mvc.dll" />
     <Content Include="Lib\SquishIt\Yahoo.Yui.Compressor.dll" />
+    <Content Include="Lib\Walkabout\node.exe" />
+    <Content Include="Lib\Walkabout\Walkabout.js">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Walkabout.coffee</DependentUpon>
+    </Content>
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
